@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+
+<body>
+  <h1>Information Newsletter</h1>
+  <p>Sign up for my information newsletter. Tell me what you want to learn about and I'll send you information I find about it.</p>
+  <form name="userInfo" onsubmit="nameEmailInterest()">
+    <label>What's your Name?
+      <input name="userName">
+    </label>
+    
+    <label>What's your email address?
+      <input name="userEmail">
+    </label>
+    
+    <label>What are you interested in learning about?
+      <input name="userInterest">
+    </label>
+  
+    <input class="send-button" type="submit" value="Send">
+  </form>
+  
+  <script src="form-handler.js"></script>
+</body>
+</html>
