@@ -5,7 +5,6 @@ body {
 }
 
 h1 {
-  color: green;
   color: royalblue;
 }
 
@@ -34,12 +33,10 @@ input {
 /* To cover input styles */
 
 .send-button {
-  background-color: lightgreen;
   background-color: lightblue;
   width: 10rem;
   margin: 1rem 0;
   height: 2rem;
-  border-color: lightgreen;
   border-color: lightblue;
   border-radius: .5rem;
   border-style: solid;
